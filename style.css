@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: unset;
+}
+
+h1{
+    background-color: unset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    font-style:normal;
+    font-weight: bolder;
+    color:green;
+    text-shadow: 2px 1px 6px black;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+    background-color: unset;
+    position: relative;
+    background-color: green;
+
+}
+
+header{
+    background-color:white;
+    height: 100px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: unset;
+    color: white;
+ 
+    
+}
+
+ul{
+    background-color: unset;
+    text-align: center;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    
+}
+
+main{
+
+    background-color: black;
+
+}
+
+img{
+    width: 200px;
+    height: fit-content;
+    align-content: center;
+}
+
+h3{
+    background-color: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+section{
+    color: green;
+    display: flex;
+}
+
+
+
+
+.container{
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    background-color: white ;
+    flex-direction:row; 
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    border-radius: 5px;
+    border: 10px solid green;
+    width: fit-content;
+    background-color: unset;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.item:nth-child(1){
+
+    background-color: green;    
+
+
+}
+
+.item:nth-child(2){
+
+    background-color: green;
+
+}
+
+.item:nth-child(3){
+
+    
+    background-color: green;
+
+}
+
+.item:nth-child(4){
+
+    background-color: green;
+
+}
+
+
+
+p{
+
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 15px;
+    background-color: unset;
+
+}
+
+.container2{
+    display: flex;
+    background-color: black ;
+    flex-direction:row; 
+    flex-wrap:wrap;
+    height: fit-content;
+}
+
+.footer1{
+    background-color: unset;
+    justify-content:space-between;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 83px;
+    margin-bottom: 77px;
+
+
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:80px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+ 
+}
